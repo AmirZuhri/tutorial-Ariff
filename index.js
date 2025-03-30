@@ -1,2 +1,3 @@
 const name = 'Bob';
-console.log(name);
+const now = new Date();
+console.log(`${name} - ${now.toLocaleString()}`);
